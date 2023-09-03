@@ -1,0 +1,80 @@
+/* COLOR Scheme
+  Light Lime: #abd699
+  Fresh Lemon: #ffe26a
+  Teal: #75c9b7
+  Mint: #c7ddcc
+  Navy: #16123f
+===== */
+
+.bodyContainer {
+  background-color: #abd699;
+  min-height: 100%;
+}
+.bg-lightGreen{
+  background-color: #abd699;
+}
+.text-sec {
+  color:#c7ddcc
+}
+.side-list-group .list-group-item.active {
+  color:#16123f;
+  background-color:#ffe26a;
+  border-color:#16123f;
+}
+.text-white{
+  color:#c7ddcc
+}
+.text-navyBlue{
+  color:#16123f;
+}
+.bg-navyBlue{
+  background-color:#16123f;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.create-note div {
+  display: flex;
+}
+.create-note div textarea, .createPost textarea {
+  padding:5px;
+  min-width: 400px;
+  font-size:21px;
+  border-radius: 5%;
+  border: none;
+}
+.create-note div button {
+  margin: 0px 10px;
+  vertical-align: auto !important;
+  font-size:21px;
+  color: #16123f; /*rgb(14, 132, 14);*/
+  font-weight:700;
+}
+
+.todoSection {
+  display:flex;
+  flex-flow:column;
+  align-items: center;
+  font-size: 22px;
+}
+.todoSection input {
+  padding: 10px;
+  font-size: 24px;
+  margin:10px;
+  width:70%;
+}
+.listContainer ul {
+  list-style: none;
+  padding: 0px;
+}
+.listItem {
+  display:flex;
+  justify-content: center;
+  /* padding: 15px; */
+}
